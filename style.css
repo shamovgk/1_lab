@@ -10,6 +10,7 @@
         font-size: 62.5%;
         box-sizing: border-box;
         font-family: 'DM Sans', sans-serif;
+
     }
     *, *:before, *:after {
         box-sizing: inherit;
@@ -33,12 +34,11 @@
     }
     body{
         background-color: var(--black-color);
-        max-width:fit-content;
-        padding: 0;
-        margin: 0;
     }
 
     header{
+        max-width: 100%; 
+        max-height: 100%;
         background-color: var(--black-color);
         box-sizing: border-box;
     }
@@ -115,6 +115,8 @@
     }
 
     .logos{
+        max-width: 100%; 
+        max-height: 100%;
         background-color: var(--black-color);
         display: flex;
         justify-content: center;
@@ -368,6 +370,8 @@
     }
 
     footer{
+        max-width: 100%; 
+        max-height: 100%;
         background-color:var(--footer-color);
         box-sizing: border-box;
     }
