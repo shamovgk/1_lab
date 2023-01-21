@@ -1,34 +1,27 @@
-
 :root {
     --black-color: #10151C;
     --white-color:#FFFFFF;
     --pink-color: #FA0369;
     --grey-color: #7E8597;
     --footer-color: #F9F9FB;
-    }
+}
     html{
-        font-size: 62.5%;
         box-sizing: border-box;
+        font-size: 62.5%;
         font-family: 'DM Sans', sans-serif;
-
-    }
-    *, *:before, *:after {
-        box-sizing: inherit;
-        padding: 0;
-        margin: 0;
     }
     h1{
         color:var(--white-color);
-        line-height:4.2rem;
-        font-weight:500;
         font-size: 3.2rem;
         font-style: normal;
+        font-weight:500;
+        line-height:4.2rem;
         margin: 0;
     }
     h2{
         color:var(--white-color);
         line-height:3.1rem;
-        font-weight:medium;
+        font-weight:500;
         font-size: 2.4rem;
         text-align:left;
     }
@@ -40,7 +33,7 @@
         max-width: 100%; 
         max-height: 100%;
         background-color: var(--black-color);
-        box-sizing: border-box;
+        box-sizing: inherit;
     }
     .header-container{
         display: flex;
@@ -64,7 +57,7 @@
     .hero{
         max-width: 100%; 
         max-height: 100%;
-        box-sizing: border-box;
+        box-sizing: inherit;
         background-color: var(--black-color);
         display: flex;
         flex-direction: row;
@@ -114,7 +107,7 @@
         text-align:center; 
     }
 
-    .logos{
+    .logo{
         max-width: 100%; 
         max-height: 100%;
         background-color: var(--black-color);
@@ -125,7 +118,7 @@
     .steps{
         max-width: 100%; 
         max-height: 100%;
-        box-sizing: border-box;
+        box-sizing: inherit;
         background-color: var(--black-color);
         display: flex;
         flex-direction: row;
@@ -198,7 +191,7 @@
     .whyus{
         max-width: 100%; 
         max-height: 100%;
-        box-sizing: border-box;
+        box-sizing: inherit;
         background-color: var(--black-color);
         display: flex;
         flex-direction: row;
@@ -288,7 +281,7 @@
     .whytik{
         max-width: 100%; 
         max-height: 100%;
-        box-sizing: border-box;
+        box-sizing: inherit;
         background-color:var(--white-color);
         display: flex;
         flex-direction: row;
@@ -349,7 +342,7 @@
     .CTA{
         max-width: 100%; 
         max-height: 100%;
-        box-sizing: border-box;
+        box-sizing: inherit;
         background-color:var(--white-color);
         display: flex;
         flex-direction: row;
@@ -373,24 +366,23 @@
         max-width: 100%; 
         max-height: 100%;
         background-color:var(--footer-color);
-        box-sizing: border-box;
+        box-sizing: inherit;
     }
     .footer-container{
+        align-items: center; 
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
-        align-items: center; 
     }
     footer p{
         color: rgba(26, 26, 26, 0.56);
         font-weight: 400;
         font-size: 12px;
         line-height: 180%;
-        padding: 3.8rem 2.4rem;
+        margin: 3.8rem 2.4rem;
     }
     footer img{
-        margin: 1rem 3.2rem;
+        margin: 1rem 3rem;
     }
     .footer-logos{
-        padding: 3.5rem 2.4rem;
+        margin: 3.5rem 2.2rem;
     }
