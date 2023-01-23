@@ -129,7 +129,11 @@
         max-height: 100%;
         background-color: var(--black-color);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        gap: 1.6rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .steps{
@@ -383,14 +387,24 @@
         box-sizing: inherit;
         background-color:var(--white-color);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 8rem 0;
+        padding: 8rem 2rem;
+    }
+    .CTA img{
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        left: 50%;
+        transform: translate(-50%);
     }
     .CTA h1{
+        text-align: center;
         color:var(--black-color);
         margin-bottom: 3.8rem;
+        position: relative;
+        right: 3rem;
     }
     .CTA p{
         color: var(--grey-color);
@@ -398,6 +412,8 @@
         font-size: 1.6rem;
         line-height: 150%;
         margin-top: 3.3rem;
+        hyphens:auto;
+        margin-left: 2rem;
     }
 
     footer{
@@ -407,20 +423,27 @@
         box-sizing: inherit;
     }
     .footer-container{
-        align-items: center; 
+        align-items: center;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+
     }
     footer p{
         color: rgba(26, 26, 26, 0.56);
         font-weight: 400;
-        font-size: 12px;
+        font-size: 1.2rem;
         line-height: 180%;
         margin: 3.8rem 2.4rem;
+        float: right;
+        hyphens:auto;
     }
     footer img{
         margin: 0.5rem 1.5rem;
     }
     .footer-logos{
-        margin: 3.5rem 2.2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 3.5rem 2.5rem;
+        float: left;
     }
