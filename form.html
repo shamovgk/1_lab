@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Тик ток</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="main-logo">
+                <img alt="main-logo" src="img/main-logo.png">
+            </div>
+            <nav>
+                <a href="index.html"><button type="button">Let's chat</button></a>
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <form method="POST" name="1form" data-netlify="true" >
+            <fieldset>
+                <legend>Личная информация</legend>
+                <label>
+                    <p>Полное имя :</p>
+                    <input class="inputer" type="text" placeholder="Шамов Гаджикурбан" name="name" required >
+                </label>
+                <label>
+                    <p>Дата рождения :</p>
+                    <input class="inputer" type="date" placeholder="ДД.ММ.ГГГГ" name="date" required>
+                </label>
+                <p>Ваш пол :</p>
+                <label>
+                    <div class="pol">
+                        <p>Мужской :</p>
+                        <input type="radio" name="radio1" value="M" checked>
+                    </div>
+                    <div class="pol">
+                        <p>Женский :</p>
+                        <input type="radio" name="radio1" value="F" checked>
+                    </div>
+                </label>
+                <label> 
+                    <p>Пароль :</p>
+                    <input class="inputer" type="password" name="password" minlength="6" placeholder="Create password" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Контакты</legend>
+                <label>
+                    <p>E-mail :</p>
+                    <input class="inputer" type="email" name="email" placeholder="wwwwwww@email.com" required>
+                </label>
+                <label>
+                    <p>Номер телефона :</p>
+                    <input class="inputer" type="tel" name="number" placeholder="+7(900)-000-00-00">
+                </label>
+                <label>
+                    <p>В какое время вам было бы удобно связаться с нами? :</p>
+                    <input class="inputer" type="text" name="time" placeholder="Утро, день, вечер, ночь">
+                </label>
+            </fieldset>
+            <div class="formbuttons">
+                <input class="formbut" type="submit" value="Отправить">
+                <input class="formbut" type="reset" value="Очистить">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <p>© 2020 Inc. All rights reserved</p>
+            </div>
+            <div class="footer-logos">
+                <div>
+                    <a href="https://www.facebook.com/"><img alt="фейсбук" src="img/facebook.png"></a>
+                    <a href="https://twitter.com/"><img alt="твиттер" src="img/twitter.png"></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/"><img alt="инстаграм" src="img/instagram.png"></a>
+                    <a href="https://github.com/shamovgk"><img alt="гитхаб" src="img/github.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
