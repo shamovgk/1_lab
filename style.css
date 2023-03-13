@@ -525,3 +525,73 @@
         transform: scale(1.2);
         font-size: 2.2rem;
     }
+
+    @media screen and (min-width: 900px) {
+        h1{
+            font-size: 4.3rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+        .hero p{
+            font-size: 2rem;
+        }
+        .whytik p{
+            font-size: 2rem;
+        }
+        .whyus p{
+            font-size: 2rem;
+        }
+        .CTA p{
+            font-size: 2rem;
+        }
+        footer p{
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width:1024px) {
+        h1{
+            font-size: 4.3rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+        .hero p{
+            font-size: 2rem;
+        }
+        .whytik p{
+            font-size: 2rem;
+        }
+        .whyus p{
+            font-size: 2rem;
+        }
+        .CTA p{
+            font-size: 2rem;
+        }
+        footer p{
+            font-size: 1.5rem;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            font-size: 2.5rem;
+        }
+        .hero p{
+            font-size: 2.5rem;
+        }
+        .whytik p{
+            font-size: 2.5rem;
+        }
+        .whyus p{
+            font-size: 2.5rem;
+        }
+        .CTA p{
+            font-size: 2.5rem;
+        }
+        footer p{
+            font-size: 2rem;
+        }
+    }
